@@ -9,7 +9,7 @@ const Auth = require("ivrtop-auth");
 
 (async () => {
     const auth = new Auth();
-    let whatsapp = auth.whatsapp("1234567")  # Replace "1234567890" with the actual phone number
+    let whatsapp = auth.whatsapp("1234567890")  # Replace "1234567890" with the actual phone number
     let send = await whatsapp.send();
     console.log("sent", send);
     let verify = await whatsapp.verify("1234");  # Replace "1234" with the actual code
