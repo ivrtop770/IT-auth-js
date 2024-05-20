@@ -23,7 +23,7 @@ const auth = new Auth();
 ```
 
 
-# To send By Phone Call
+# To send By Phone Call (only israel phone numbers)
 ```
 (async () => {
     // Step 1: send the code by phone call
