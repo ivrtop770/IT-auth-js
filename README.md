@@ -2,7 +2,12 @@
 ## first you need to approve you server ip to access to this service.
 ### plaese contact us.
 
-# First Import The Module
+# install from npm
+```
+npm i ivrtop-auth
+```
+
+# Import The Module
 ```
 const Auth = require("ivrtop-auth");
 const auth = new Auth();
