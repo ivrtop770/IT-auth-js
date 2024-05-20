@@ -2,7 +2,7 @@
 ## first you need to approve you server ip to access to this service.
 ### plaese contact us.
 
-# install from npm
+# install by npm
 ```
 npm i ivrtop-auth
 ```
